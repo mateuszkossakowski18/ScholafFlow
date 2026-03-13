@@ -1,0 +1,5 @@
+{
+  "name": "ScholarFlow",
+  "description": "AI-powered publication assistant for researchers, featuring title generation, journal strategy, bibliography search, and peer-review analysis.",
+  "requestFramePermissions": []
+}

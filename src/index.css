@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-scientific-dark: #0a0c10;
+  --color-scientific-card: #161b22;
+  --color-scientific-border: #30363d;
+  --color-scientific-accent: #58a6ff;
+}
+
+@layer base {
+  body {
+    @apply bg-scientific-dark text-gray-200 font-sans;
+  }
+}
+
+.scientific-glass {
+  @apply bg-scientific-card/80 backdrop-blur-md border border-scientific-border rounded-xl;
+}
