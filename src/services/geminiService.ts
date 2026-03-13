@@ -1,6 +1,6 @@
-import { GoogleGenAI, Type } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const ai = new GoogleGenerativeAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY || "" });
+const ai = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY || "");
 
 export interface TitleProposals {
   traditional: string;
